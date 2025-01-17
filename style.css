@@ -1,0 +1,172 @@
+/* General Body Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    line-height: 1.6;
+    background-color: #fdeef1;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #ef7674;
+    color: #fff;
+}
+
+header .logo img {
+    width: 120px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: #ec5766;
+    color: #fff;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.hero-content p {
+    margin: 20px 0;
+    font-size: 1.2rem;
+}
+
+.hero-content button {
+    background: #da344d;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-content button:hover {
+    background: #d91e36;
+}
+
+.hero-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Pricing Section Styling */
+.pricing-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.pricing-table {
+    flex: 1;
+    max-width: 50%;
+    padding: 20px;
+}
+
+.pricing-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.set-btn, .view-btn {
+    background-color: #da344d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s ease;
+}
+
+.set-btn:hover, .view-btn:hover {
+    background-color: #c42348;
+}
+
+.view-btn {
+    background-color: #ef7674;
+}
+
+/* Visual Section */
+.visual-section {
+    flex: 1;
+    max-width: 40%;
+    padding: 20px;
+    text-align: center;
+}
+
+.learn-btn {
+    background-color: #da344d;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.learn-btn:hover {
+    background-color: #c42348;
+}
+
+.visual-section img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    background-color: #fff;
+    color: #333;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2px solid #da344d;
+    margin-top: 50px;
+}
+
+.contact-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    color: #da344d;
+}
